@@ -3,7 +3,7 @@ import styles from './header.module.scss'
 
 export default function header() {
   return (
-    <div className={`${styles.header} flex items-center text-white`}>
+    <header className={`${styles.header} flex items-center text-white`}>
       <div className={styles.header__top_left}>
         <div className={styles.header__top_search}>
           <input type='text' className='' placeholder='Search Music Here..' />
@@ -19,10 +19,10 @@ export default function header() {
         </div>
       </div>
       <div className={styles.header__top_right}>
-        Languages
+        Languages &nbsp; EN
         <button>Register</button>
         <button>Login</button>
       </div>
-    </div>
+    </header>
   )
 }
