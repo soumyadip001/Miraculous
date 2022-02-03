@@ -11,7 +11,7 @@ export default function Layout({ children }) {
         <link rel="icon" href="/favicon.ico" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
       </Head>
-      <main className='w-full h-full flex'>
+      <main className='w-full h-full flex bg-dark'>
         <Nav />
         <div className='content__wrapper flex flex-col'>
           <Header />

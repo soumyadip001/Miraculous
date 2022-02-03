@@ -1,27 +1,27 @@
 import React from 'react'
-import styles from './header.module.scss'
+import styles from '../styles/header.module.scss'
+
+import InputGroup from '../components/forms/InputGroup'
+import Button from '../components/forms/Button'
 
 export default function header() {
   return (
     <header className={`${styles.header} flex items-center text-white`}>
       <div className={styles.header__top_left}>
-        <div className={styles.header__top_search}>
-          <input type='text' className='' placeholder='Search Music Here..' />
-          <button>
-            <i class="material-icons">search</i>
-          </button>
-        </div>
-        <div className={styles.header__top_trend}>
-          <span>Trending Songs :</span>
+        <InputGroup />
+        <div className={`${styles.header__top_trend} font-md`}>
+          <span className='text-accent'>Trending Songs :&nbsp;</span>
           <span>
             <a href='#'>Dream your moments, Until I Met You, Gimme Some Courage, Dark Alley (+8 More)</a>
           </span>
         </div>
       </div>
       <div className={styles.header__top_right}>
-        Languages &nbsp; EN
-        <button>Register</button>
-        <button>Login</button>
+        <div className={styles.header__language}>
+          Languages &nbsp; <span className='text-accent'>EN</span>
+        </div>
+        <Button>Register</Button>
+        <Button>Login</Button>
       </div>
     </header>
   )
