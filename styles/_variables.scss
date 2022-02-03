@@ -4,10 +4,14 @@
   --color-blue-dark-2: #14182a;
   --color-bg-primary: #3bc8e7;
   --color-text-grey-1: #777777;
+  --color-text-grey-2: #dedede;
 
   // fixed sizes
   --sidebar-width-sm: 6.125rem;
   --sidebar-width-xl: 10rem;
+
+  // font
+  --default-font: 'Josefin Sans', sans-serif;
 
   // spacing
   --padding-xl: 20px 50px;
@@ -30,8 +34,11 @@
 
   // border radius
   --border-radius-sm: 5px;
+  --border-radius-md: 10px;
   --border-radius-lg: 20px;
 
   // font sizes
   --font-h1: 45px;
+  --font-h3: 18px;
+  --font-h4: 15px;
 }

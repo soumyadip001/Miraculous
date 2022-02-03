@@ -7,7 +7,7 @@ export default function InputGroup() {
         placeholder='Search Music Here..' />
 
       <button className="flex justify-center items-center h-10 input-group-btn">
-        <i class="material-icons">search</i>
+        <i className="material-icons">search</i>
       </button>
     </div>
   )
