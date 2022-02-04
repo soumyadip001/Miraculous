@@ -16,9 +16,10 @@ export default function Layout({ children }) {
         <div className='content__wrapper flex flex-col'>
           <Header />
           { children }
+          <Footer />
         </div>
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }
