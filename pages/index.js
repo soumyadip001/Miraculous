@@ -101,7 +101,9 @@ export default function Home() {
         <div className='banner--small mb-12 flex justify-center items-center'>
           <SmallBanner name='adv1' />
         </div>
-        <div className='section__live-audio mb-12'>Live Radio</div>
+        <div className='section__live-audio mb-12'>
+          <GridView showName={true} slides={[...slidesRecentlyPlayed]} title='Live Radio' />
+        </div>
       </div>
     </Layout>
   )
