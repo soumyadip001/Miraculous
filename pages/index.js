@@ -2,6 +2,7 @@ import Layout from '../layout/default'
 import LargeBanner from '../components/banner/LargeBanner'
 import GridView from '../components/sections/GridView'
 import WeeklyTop from '../components/sections/WeeklyTop'
+import SmallBanner from '../components/banner/SmallBanner'
 
 const slidesRecentlyPlayed = [
   {
@@ -63,7 +64,9 @@ export default function Home() {
         <div className='section__featured-artists mb-12'>
           <GridView showName={false} slides={[...slidesFeaturedArtists]} title='Featured Artists' />
         </div>
-        <div className='banner--small mb-12'>Small Add/Banner</div>
+        <div className='banner--small mb-12 flex justify-center items-center'>
+          <SmallBanner />
+        </div>
         <div className='section__new-releases mb-12'>New Releases</div>
         <div className='section__featured-albums mb-12'>Featured Albums</div>
         <div className='section__top-genres mb-12'>Top Genres</div>
