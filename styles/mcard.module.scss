@@ -1,0 +1,73 @@
+.music__card__wrapper {
+  gap: 3%;
+  justify-content: space-between;
+}
+
+.mcard {
+  position: relative;
+  padding: 0 20px 20px 0;
+  margin: 0.25rem 0;
+  font-family: var(--default-font);
+}
+
+.mcard__left {
+  color: #fff;
+}
+
+.mcard__number {
+  flex-basis: 60px;
+  font-size: 50px;
+  font-weight: bold;
+  color: #dedede;
+  display: inline-block;
+  line-height: 50px;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+}
+
+.mcard__song {
+  flex: 1;
+  padding-left: 20px;
+  padding-right: 2px;
+}
+
+.mcard__image__container {
+  width: 50px;
+  position: relative;
+}
+
+.mcard__image {
+  border-radius: 5px;
+  max-width: 100%;
+  height: auto;
+}
+
+.mcard__name {
+  padding-left: 20px;
+}
+.mcard__name:hover {
+  color: var(--color-bg-primary);
+}
+
+.mcard__right {
+  position: relative;
+}
+
+.mcard__songtime {
+  padding-right: 40px;
+  color: #fff;
+}
+
+.mcard__options {
+  position: absolute;
+  display: none;
+
+  // display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mcard__options__ul {
+  position: absolute;
+  display: none;
+}
