@@ -50,6 +50,29 @@ const slidesFeaturedArtists = [
   },
 ];
 
+const slidesFeaturedAlbums = [
+  {
+    name: 'Bloodlust',
+    singer: 'Ava Cornish & Brian Hill',
+    src: 'images/albums/album1.jpg',
+  },
+  {
+    name: 'Gimme Some Courage',
+    singer: 'Ava Cornish & Brian Hill',
+    src: 'images/albums/album2.jpg',
+  },
+  {
+    name: 'Dark Alley Acoustic',
+    singer: 'Ava Cornish & Brian Hill',
+    src: 'images/albums/album3.jpg',
+  },
+  {
+    name: 'Walking Promises',
+    singer: 'Ava Cornish & Brian Hill',
+    src: 'images/albums/album4.jpg',
+  },
+];
+
 export default function Home() {
   return (
     <Layout>
@@ -68,7 +91,9 @@ export default function Home() {
           <SmallBanner />
         </div>
         <div className='section__new-releases mb-12'>New Releases</div>
-        <div className='section__featured-albums mb-12'>Featured Albums</div>
+        <div className='section__featured-albums mb-12'>
+          <GridView showName={true} slides={[...slidesFeaturedAlbums]} title='Featured Albums' />
+        </div>
         <div className='section__top-genres mb-12'>Top Genres</div>
         <div className='banner--small mb-12'>Small Add/Banner</div>
         <div className='section__live-audio mb-12'>Live Radio</div>
