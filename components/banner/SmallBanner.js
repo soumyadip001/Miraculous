@@ -1,7 +1,9 @@
-export default function SmallBanner() {
+export default function SmallBanner({name}) {
+  const bannerSrc = name ? `/images/${name}.jpg` : `/images/adv.jpg`
+
   return (
     <div className="w-3/4 px-8 cursor-pointer mt-6">
-      <img src="/images/adv.jpg" className="w-full h-auto" />
+      <img src={bannerSrc} className="w-full h-auto" />
     </div>
   )
 }

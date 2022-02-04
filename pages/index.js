@@ -98,7 +98,9 @@ export default function Home() {
         <div className='section__top-genres mb-12'>
           <TopGenre title={'Top Genres'}></TopGenre>
         </div>
-        <div className='banner--small mb-12'>Small Add/Banner</div>
+        <div className='banner--small mb-12 flex justify-center items-center'>
+          <SmallBanner name='adv1' />
+        </div>
         <div className='section__live-audio mb-12'>Live Radio</div>
       </div>
     </Layout>
