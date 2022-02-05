@@ -7,6 +7,7 @@
 
 .line-height-lg { line-height: var(--line-height-lg); }
 .border-radius-sm { border-radius: var(--border-radius-sm); }
+.border-primary { border-color: var(--color-bg-primary); }
 .no-margin { margin: 0 !important; }
 
 // typography
@@ -16,6 +17,7 @@
   font-weight: 400;
   line-height: var(--line-height-lg);
 }
+.font-icon-sm { font-size: var(--font-icon-sm); }
 
 // text
 .text-accent { color: var(--color-bg-primary); }

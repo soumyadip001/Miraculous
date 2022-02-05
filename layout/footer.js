@@ -24,7 +24,7 @@ const contactArr = [
 
 export default function footer() {
   return (
-    <footer className='w-full flex flex-col justify-center items-center mt-8 mb-8 px-20 text-white'>
+    <footer className='w-full flex flex-col justify-center items-center mt-8 mb-24 px-20 text-white'>
       <a
         href="#"
         target="_blank"

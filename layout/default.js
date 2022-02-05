@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Header from './header'
 import Footer from './footer'
 import Nav from './nav'
+import MusicPayerBottom from '../components/music/MusicPayerBottom'
 
 export default function Layout({ children }) {
   return (
@@ -19,7 +20,7 @@ export default function Layout({ children }) {
           <Footer />
         </div>
       </main>
-      {/* <Footer /> */}
+      <MusicPayerBottom />
     </div>
   )
 }
