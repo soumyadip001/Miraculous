@@ -2,6 +2,7 @@ import React from 'react'
 import NewsLetter from '../components/forms/NewsLetter';
 import GridViewHeader from '../components/sections/GridViewHeader';
 import DownloadApp from '../components/forms/DownloadApp'
+import CopyRight from '../components/sections/CopyRight';
 
 const contactArr = [
   {
@@ -65,9 +66,7 @@ export default function footer() {
           </div>
         </div>
       </div>
-      <p className='display-para mt-16'>
-        Copyright © 2022 <span className='text-accent'>The Miraculous Music Template</span>. All Rights Reserved.
-      </p>
+      <CopyRight />
     </footer>
   )
 }
