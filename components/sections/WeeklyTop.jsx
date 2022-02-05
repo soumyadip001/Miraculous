@@ -152,7 +152,7 @@ export default function WeeklyTop() {
         <div className={`flex flex-wrap ${styles.music__card__wrapper}`}>
           {
             musicArr.map((mcard, index) => (
-              <MusicCard index={index} mcard={mcard}></MusicCard>
+              <MusicCard index={index} mcard={mcard} key={index}></MusicCard>
             ))
           }
         </div>

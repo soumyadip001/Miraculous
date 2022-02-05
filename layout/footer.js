@@ -46,7 +46,7 @@ export default function footer() {
           <GridViewHeader showViewMore={false}>Contact Us</GridViewHeader>
           {
             contactArr.map(item => (
-              <div className='flex justify-start items-center display-para w-full gap-2 mb-4'>
+              <div className='flex justify-start items-center display-para w-full gap-2 mb-4' key={item.title}>
                 <div className='flex justify-center items-center basis-1/6 bg-light p-3 border-radius-sm'>
                   <i className='material-icons'>{item.icon}</i>
                 </div>

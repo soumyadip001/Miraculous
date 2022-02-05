@@ -7,8 +7,8 @@ export default function GridView({ showName, slides, title }) {
       <GridViewHeader showViewMore={true}>{ title }</GridViewHeader>
       <div className="flex items-center gap-4">
         {
-          slides.map(slide => 
-            <div className={styles.section__card}>
+          slides.map((slide, index) => 
+            <div className={styles.section__card} key={index}>
               <img src={slide.src} alt={slide.name} />
               <div className={styles.play__overlay}>
                 <div className={styles.box__overlay}></div>

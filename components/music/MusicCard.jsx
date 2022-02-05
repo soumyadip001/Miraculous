@@ -11,7 +11,7 @@ export default function MusicCard({ index, mcard }) {
         </span>
         <div className={`flex justify-start items-center ${styles.mcard__song}`}>
           <div className={styles.mcard__image__container}>
-            <img lassName={styles.mcard__image} src={mcard.image} alt={mcard.name} />
+            <img className={styles.mcard__image} src={mcard.image} alt={mcard.name} />
           </div>
           <div className={`flex flex-col justify-between items-start ${styles.mcard__name}`}>
             <h3 className='font-md'>
