@@ -15,7 +15,7 @@ export default function LargeBanner() {
       </div>
       <div className='flex flex-col items-start justify-center flex-1 text-white'>
         <h1 className='display-1'>This Month's <span>Record Breaking Albums !</span></h1>
-        <p className='mt-4 mb-10 text-grey-1 display-para'>
+        <p className='mt-4 mb-10 mr-20 text-grey-1 display-para'>
           Dream your moments, Until I Met You, Gimme Some Courage, Dark Alley, One More Of A Stranger, Endless Things, The Heartbeat Stops, Walking Promises, Desired Games and many more...
         </p>
         <p className='flex w-full'>

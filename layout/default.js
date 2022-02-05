@@ -13,7 +13,7 @@ export default function Layout({ children }) {
       </Head>
       <main className='w-full h-full flex bg-dark'>
         <Nav />
-        <div className='content__wrapper flex flex-col'>
+        <div className='content__wrapper flex flex-col sidebar-width-md'>
           <Header />
           { children }
           <Footer />

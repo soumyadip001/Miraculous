@@ -2,6 +2,7 @@
 .min-height-164 { min-height: 164px; }
 .min-height-540 { min-height: 540px; }
 .min-width-section { min-width: calc(100vw - var(--sidebar-width-sm)); }
+.sidebar-width-md { margin-left: calc(var(--sidebar-width-md) - 5px); }
 .basis-30-p { flex-basis: 30%; }
 
 .line-height-lg { line-height: var(--line-height-lg); }
