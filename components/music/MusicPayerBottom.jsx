@@ -1,6 +1,8 @@
 import styles from '../../styles/music.module.scss'
 import Button from '../forms/Button'
 import Progress from '../music/Progress'
+import Play from './Play'
+import Volume from './Volume'
 
 export default function MusicPayerBottom() {
   return (
@@ -25,12 +27,12 @@ export default function MusicPayerBottom() {
         </div>
         <div className="player__mid flex-grow flex justify-evenly items-center">
           <i className={`material-icons cursor-pointer`}>skip_previous</i>
-          <i className={`material-icons cursor-pointer rounded-full border-2 border-white p-3`}>play_arrow</i>
+          <Play />
           <i className={`material-icons cursor-pointer`}>skip_next</i>
           <div className="progress-bar basis-1/2">
             <Progress completed={60} />
           </div>
-          <i className={`material-icons cursor-pointer rounded-full border-2 border-white p-3`}>volume_up</i>
+          <Volume />
           <i className={`material-icons cursor-pointer`}>queue_play_next</i>
           <i className={`material-icons cursor-pointer`}>sync</i>
           <Button size={'md'}>
