@@ -1,4 +1,4 @@
-import styles from '../../styles/mcard.module.scss'
+import styles from 'styles/components/mcard.module.scss'
 
 export default function MusicCard({ index, mcard }) {
   const songName = (mcard.name.length > 17) ? `${mcard.name.substr(0, 14)}...` : mcard.name ;

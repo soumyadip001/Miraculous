@@ -1,5 +1,5 @@
 import { useState } from "react"
-import styles from '../../styles/music.module.scss'
+import styles from 'styles/components/music.module.scss'
 
 export default function Play() {
   const [play, setPlay] = useState('play_arrow')

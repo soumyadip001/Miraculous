@@ -1,4 +1,4 @@
-import styles from '../../styles/button.module.scss'
+import styles from 'styles/components/button.module.scss'
 
 export default function Button({ children, size, nomargin }) {
   const appliedClassName = size ? styles[`btn__${size}`] : styles.btn__sm

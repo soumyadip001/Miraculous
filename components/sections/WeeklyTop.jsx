@@ -1,7 +1,7 @@
 import GridViewHeader from "./GridViewHeader"
 import MusicCard from "../music/MusicCard"
 
-import styles from '../../styles/mcard.module.scss'
+import styles from 'styles/components/mcard.module.scss'
 
 const musicArr = [
   {

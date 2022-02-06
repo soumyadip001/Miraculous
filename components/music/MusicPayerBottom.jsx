@@ -1,4 +1,4 @@
-import styles from '../../styles/music.module.scss'
+import styles from 'styles/components/music.module.scss'
 import Button from '../forms/Button'
 import Progress from '../music/Progress'
 import Play from './Play'

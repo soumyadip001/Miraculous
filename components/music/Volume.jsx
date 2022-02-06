@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import styles from '../../styles/music.module.scss'
+import styles from 'styles/components/music.module.scss'
 import ProgressBar from "@ramonak/react-progress-bar";
 
 export default function Volume() {

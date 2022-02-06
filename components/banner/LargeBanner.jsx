@@ -1,4 +1,4 @@
-import styles from '../../styles/banner.module.scss'
+import styles from 'styles/components/banner.module.scss'
 import Button from '../forms/Button'
 import Image from 'next/image'
 
