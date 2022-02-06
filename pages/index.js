@@ -26,6 +26,11 @@ const slidesRecentlyPlayed = [
     singer: 'Ava Cornish & Brian Hill',
     src: 'images/slides/r_music4.jpg',
   },
+  {
+    name: 'Walking Promises',
+    singer: 'Ava Cornish & Brian Hill',
+    src: 'images/slides/r_music5.jpg',
+  },
 ];
 
 const slidesFeaturedArtists = [
@@ -48,6 +53,11 @@ const slidesFeaturedArtists = [
     name: 'Walking Promises',
     singer: 'Ava Cornish & Brian Hill',
     src: 'images/slides/r_music4.jpg',
+  },
+  {
+    name: 'Walking Promises',
+    singer: 'Ava Cornish & Brian Hill',
+    src: 'images/slides/r_music1.jpg',
   },
 ];
 
@@ -72,6 +82,11 @@ const slidesFeaturedAlbums = [
     singer: 'Ava Cornish & Brian Hill',
     src: 'images/albums/album4.jpg',
   },
+  {
+    name: 'Walking Promises',
+    singer: 'Ava Cornish & Brian Hill',
+    src: 'images/albums/album5.jpg',
+  },
 ];
 
 export default function Home() {
@@ -91,7 +106,7 @@ export default function Home() {
         <div className='banner--small mb-12 flex justify-center items-center'>
           <SmallBanner />
         </div>
-        <div className='section__new-releases mb-12'>New Releases</div>
+        <div className='section__new-releases mb-12 hidden'>New Releases</div>
         <div className='section__featured-albums mb-12'>
           <GridView showName={true} slides={[...slidesFeaturedAlbums]} title='Featured Albums' />
         </div>

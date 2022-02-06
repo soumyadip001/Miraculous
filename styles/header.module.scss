@@ -59,3 +59,24 @@
     padding: var(--padding-lg);
   }
 }
+
+@media (max-width: 992px) {
+  .header {
+    padding: 10px 30px 10px;
+  }
+  .header__top_trend {
+    display: none;
+  }
+  .header__language {
+    padding-right: var(--padding-sm);
+    &::after {
+      height: 0;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .header__language {
+    display: none;
+  }
+}

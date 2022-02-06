@@ -98,6 +98,23 @@
   padding: 0 1.2rem;
 }
 
+@media (max-width: 992px) {
+  .input-text-md {
+    height: 30px;
+    padding: 0px 10px;
+    font-size: 14px;
+    line-height: 40px;
+  }
+
+  .input-group-input {
+    padding: 0 1rem;
+  }
+
+  .input-group-btn {
+    padding: 0 .8rem;
+  }
+}
+
 // background colors
 .bg-dark { background-color: var(--color-blue-dark-2); }
 .bg-light { background-color: var(--color-bg-primary); }

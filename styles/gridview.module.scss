@@ -39,7 +39,7 @@
   margin: 0px;
 }
 .section__card {
-  @apply flex flex-col content-start justify-center basis-1/4 border-0;
+  @apply flex flex-col content-start justify-center basis-1/5 border-0;
   border-radius: var(--border-radius-md);
   overflow: hidden;
   position: relative;
@@ -98,4 +98,12 @@
 
 .section__card:hover .more__icon {
   top: 10px;
+}
+
+
+// for tab
+@media (max-width: 1300px) {
+  .section__card {
+    @apply basis-1/4;
+  }
 }
