@@ -1,6 +1,6 @@
-[![Dev.to](https://img.shields.io/twitter/url?color=green&label=Dev.to&logo=dev.to&logoColor=yellow&style=for-the-badge)](https://miraculous-app.netlify.app/)
-[![Github](https://img.shields.io/twitter/url?color=green&label=Github&logo=github&logoColor=white&style=for-the-badge)](https://github.com/soumyadip001)
-[![Email](https://img.shields.io/twitter/url?color=green&label=Email&logo=gmail&logoColor=red&style=for-the-badge)](mailto:soumyadiphazra@gmail.com)
+[![miraculous-app.netlify.app](https://img.shields.io/twitter/url?color=green&label=Dev.to&logo=dev.to&logoColor=yellow&style=for-the-badge&url=https%3A%2F%2Fmiraculous-app.netlify.app%2F)](https://miraculous-app.netlify.app/)
+[![Github](https://img.shields.io/twitter/url?color=green&label=Github&logo=github&logoColor=white&style=for-the-badge&url=https%3A%2F%2Fmiraculous-app.netlify.app%2F)](https://github.com/soumyadip001)
+[![Email](https://img.shields.io/twitter/url?color=green&label=Email&logo=gmail&logoColor=red&style=for-the-badge&url=https%3A%2F%2Fmiraculous-app.netlify.app%2F)](mailto:soumyadiphazra@gmail.com)
 
 <h1 align="center">Miraculous 🎵</h1>
 <h2 align="center">Online Music Store Html Template</h2>
