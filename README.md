@@ -1,6 +1,6 @@
-[![Dev.to](https://img.shields.io/twitter/url?color=green&label=Dev.to&logo=dev.to&logoColor=yellow&style=for-the-badge&url=https%3A%2F%2Fdev.to%2Fthuongtruong1009)](https://mysite.com)
-[![Github](https://img.shields.io/twitter/url?color=green&label=Github&logo=github&logoColor=white&style=for-the-badge&url=https%3A%2F%2Fdev.to%2Fthuongtruong1009)](https://github.com/soumyadip001)
-[![Email](https://img.shields.io/twitter/url?color=green&label=Email&logo=gmail&logoColor=red&style=for-the-badge&url=https%3A%2F%2Fdev.to%2Fthuongtruong1009)](mailto:soumyadiphazra@gmail.com)
+[![Dev.to](https://img.shields.io/twitter/url?color=green&label=Dev.to&logo=dev.to&logoColor=yellow&style=for-the-badge)](https://miraculous-app.netlify.app/)
+[![Github](https://img.shields.io/twitter/url?color=green&label=Github&logo=github&logoColor=white&style=for-the-badge)](https://github.com/soumyadip001)
+[![Email](https://img.shields.io/twitter/url?color=green&label=Email&logo=gmail&logoColor=red&style=for-the-badge)](mailto:soumyadiphazra@gmail.com)
 
 <h1 align="center">Miraculous 🎵</h1>
 <h2 align="center">Online Music Store Html Template</h2>
@@ -15,19 +15,17 @@
 
 ## Features
 
- - Created with React
- - On top of Next JS (Server Side rendering enabled)
- - Flexbox design
- - Used Tailwind 3 with purge
- - Component based and fully customizable
- - Free to use and modify
+- Created with React
+- On top of Next JS (Server Side rendering enabled)
+- Flexbox design
+- Used Tailwind 3 with purge
+- Component based and fully customizable
+- Free to use and modify
 
 ## Demo
 
-[Preview at here](https://bee-music.netlify.app/)
+[Preview at here](https://miraculous-app.netlify.app/)
 
 Full App Preview
 
 ![Full App Preview](https://github.com/soumyadip001/Miraculous/blob/main/docs/fullScreen.png)
-
-
