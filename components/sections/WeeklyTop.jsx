@@ -148,7 +148,7 @@ export default function WeeklyTop() {
   return (
     <div className="flex flex-col text-white">
       <GridViewHeader showViewMore={false}>Weekly Top 15</GridViewHeader>
-      <div className="flex items-center gap-4 w-full">
+      <div className="flex items-center lg:gap-4 md:gap-3 w-full">
         <div className={`flex flex-wrap ${styles.music__card__wrapper}`}>
           {
             musicArr.map((mcard, index) => (

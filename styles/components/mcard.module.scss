@@ -71,3 +71,25 @@
   position: absolute;
   display: none;
 }
+
+@media (max-width: 1400px) {
+  .music__card__wrapper {
+    gap: 2%;
+  }
+  .mcard {
+    padding: 0 15px 15px 0;
+  }
+  .mcard__number {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .mcard__name {
+    padding-left: 15px;
+  }
+}
+
+@media (max-width: 992px) {
+  .mcard {
+    padding: 0 15px 15px 0;
+  }
+}
