@@ -92,7 +92,7 @@ const slidesFeaturedAlbums = [
 export default function Home() {
   return (
     <Layout>
-      <div className='section__wrapper bg-dark mt-24 w-full flex flex-col min-width-section px-20'>
+      <div className='section__wrapper bg-dark lg:mt-24 md:mt-16 w-full flex flex-col min-width-section px-20'>
         <LargeBanner />
         <div className='section__recent-played mb-12'>
           <GridView showName={true} slides={[...slidesRecentlyPlayed]} title='Recently Played' />
@@ -103,7 +103,7 @@ export default function Home() {
         <div className='section__featured-artists mb-12'>
           <GridView showName={false} slides={[...slidesFeaturedArtists]} title='Featured Artists' />
         </div>
-        <div className='banner--small mb-12 flex justify-center items-center'>
+        <div className='banner--small lg:mb-12 md:mb-8 sm:mb-8 flex justify-center items-center'>
           <SmallBanner />
         </div>
         <div className='section__new-releases mb-12 hidden'>New Releases</div>

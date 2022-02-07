@@ -9,7 +9,7 @@ export default function header() {
     <header className={`${styles.header} flex items-center text-white`}>
       <div className={styles.header__top_left}>
         <InputGroup />
-        <div className={`${styles.header__top_trend} font-md`}>
+        <div className={`${styles.header__top_trend} font-md md:hidden`}>
           <span className='text-accent'>Trending Songs :&nbsp;</span>
           <span>
             <a href='#'>Dream your moments, Until I Met You, Gimme Some Courage, Dark Alley (+8 More)</a>
