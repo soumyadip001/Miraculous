@@ -5,6 +5,23 @@
 <h1 align="center">Miraculous 🎵</h1>
 <h2 align="center">Online Music Store Html Template</h2>
 
+## APP Stack Details
+
+[![React](https://img.shields.io/badge/react-17.02-brightgreen)](https://reactjs.org/)
+[![React Dom](https://img.shields.io/badge/react--dom-17.02-brightgreen)](https://reactjs.org/)
+[![Next.JS](https://img.shields.io/badge/next-latest-yellowgreen)](https://nextjs.org/)
+[![SASS](https://img.shields.io/badge/sass-1.49-red)](https://reactjs.org/)
+[![Tailwind](https://img.shields.io/badge/tailwindcss-3.0-red)](https://tailwindcss.com/)
+
+## Features
+
+ - Created with React
+ - On top of Next JS (Server Side rendering enabled)
+ - Flexbox design
+ - Used Tailwind 3 with purge
+ - Component based and fully customizable
+ - Free to use and modify
+
 ## Demo
 
 [Preview at here](https://bee-music.netlify.app/)
@@ -13,10 +30,4 @@ Full App Preview
 
 ![Full App Preview](https://github.com/soumyadip001/Miraculous/blob/main/docs/fullScreen.png)
 
-## APP Stack Details
 
-- [React](https://img.shields.io/badge/react-17.02-brightgreen)
-- [React Dom](https://img.shields.io/badge/react--dom-17.02-brightgreen)
-- [Next.JS](https://img.shields.io/badge/next-latest-yellowgreen)
-- [SASS](https://img.shields.io/badge/sass-1.49-red)
-- [Tailwind](https://img.shields.io/badge/tailwindcss-3.0-red)
