@@ -10,3 +10,4 @@
 
 PUT IMAGE HERE
 
+![Full App Preview](https://github.com/soumyadip001/Miraculous/blob/main/docs/fullScreen.png)
