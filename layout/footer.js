@@ -33,16 +33,16 @@ export default function footer() {
         <img src="/logo.png" alt="Miraculous Logo" />
       </a>
       <p className='display-2'>The Miraculous</p>
-      <div className='w-full flex gap-8 items-start mt-16'>
-        <div className='flex flex-col items-start justify-center basis-1/4'>
+      <div className='w-full flex lg:gap-8 md:gap-4 sm:gap-0 items-start lg:mt-16 md:mt-12 sm:flex-col lg:flex-row'>
+        <div className='flex flex-col items-start justify-center lg:basis-1/4 md:basis-1/2 sm:mt-12'>
           <GridViewHeader showViewMore={false}>Miraculous Music Station</GridViewHeader>
           <p className='display-para'>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor.
           </p>
         </div>
         <DownloadApp />
         <NewsLetter />
-        <div className='flex flex-col items-start justify-center basis-1/4'>
+        <div className='flex flex-col items-start justify-center lg:basis-1/4 md:basis-1/2 sm:flex-col sm:mt-12'>
           <GridViewHeader showViewMore={false}>Contact Us</GridViewHeader>
           {
             contactArr.map(item => (

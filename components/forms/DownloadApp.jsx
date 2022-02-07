@@ -2,7 +2,7 @@ import GridViewHeader from '../sections/GridViewHeader';
 
 export default function DownloadApp() {
   return (
-    <div className='flex flex-col items-start justify-center basis-1/4'>
+    <div className='flex flex-col items-start justify-center lg:basis-1/4 md:basis-1/2 sm:flex-col sm:mt-12'>
       <GridViewHeader showViewMore={false}>Download Our App</GridViewHeader>
       <p className='display-para'>Go Mobile with our app. Listen to your favourite songs at just one click. Download Now !</p>
       <img src='/images/google_play.jpg' alt='Google Play' className='mt-4 cursor-pointer' />

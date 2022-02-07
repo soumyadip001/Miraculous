@@ -4,7 +4,7 @@ import GridViewHeader from '../sections/GridViewHeader';
 
 export default function NewsLetter() {
   return (
-    <div className='flex flex-col items-start justify-center'>
+    <div className='flex flex-col items-start justify-center md:basis-1/2 sm:flex-col sm:mt-12'>
       <GridViewHeader showViewMore={false}>Subscribe</GridViewHeader>
       <p className='display-para'>Subscribe to our newsletter and get latest updates and offers.</p>
       <TextInput placeholder='Enter Your Name' />
