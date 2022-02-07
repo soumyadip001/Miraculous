@@ -4,7 +4,7 @@ export default function TopGenre({ title }) {
   return (
     <div className="flex flex-col text-white">
       <GridViewHeader showViewMore={true}>{ title }</GridViewHeader>
-      <div className="flex items-center lg:gap-4 md:gap-2 md:flex-col w-full">
+      <div className="flex items-center lg:gap-4 md:gap-2 md:flex-col lg:flex-row w-full">
         <div className="lg:basis-2/6 md:w-full flex relative overlay-blue">
           <img src='/images/genrs/img1.jpg' className='w-full h-auto' alt='Genres 1' />
         </div>
