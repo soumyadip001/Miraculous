@@ -13,10 +13,10 @@
 [![SASS](https://img.shields.io/badge/sass-1.49-red)](https://reactjs.org/)
 [![Tailwind](https://img.shields.io/badge/tailwindcss-3.0-red)](https://tailwindcss.com/)
 
-## DEMO
+## Preview
 See the demo here: [preview](https://miraculous-app.netlify.app/)
 
-## CREDITS
+## Credits
 This app design is heavily inspired from [this PIN](https://in.pinterest.com/pin/366339750935337418/) but the layout is recreated completely using `Vue` and `flexbox`. This app is created solely for **educational purposes** and **strictly not for sale!**. The Images used in this project are taken from [pixabay](https://pixabay.com/) & the credits goes to them. Cheers!
 
 ## Features
